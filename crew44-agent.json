@@ -1,0 +1,179 @@
+{
+  "schema_version": "crew44.agent.v1",
+  "name": "Matt Pocock Skills",
+  "version": "1.0.0",
+  "description": "A Crew44 agent packaged from Matt Pocock's collection of Claude skills.",
+  "author": "mattpocock",
+  "tags": [
+    "skills",
+    "typescript"
+  ],
+  "suggested_runtime": "claude",
+  "source_type": "upstream-wrapper",
+  "upstream": {
+    "repo_url": "https://github.com/mattpocock/skills",
+    "commit": "e3b90b5238f38cdea5996e16861dcae28ef52eda",
+    "path": "upstream",
+    "imported_at": "2026-05-29T10:01:37Z"
+  },
+  "skills": [
+    {
+      "name": "design-an-interface",
+      "path": "upstream/skills/deprecated/design-an-interface/SKILL.md"
+    },
+    {
+      "name": "qa",
+      "path": "upstream/skills/deprecated/qa/SKILL.md"
+    },
+    {
+      "name": "request-refactor-plan",
+      "path": "upstream/skills/deprecated/request-refactor-plan/SKILL.md"
+    },
+    {
+      "name": "ubiquitous-language",
+      "path": "upstream/skills/deprecated/ubiquitous-language/SKILL.md"
+    },
+    {
+      "name": "diagnose",
+      "path": "upstream/skills/engineering/diagnose/SKILL.md"
+    },
+    {
+      "name": "grill-with-docs",
+      "path": "upstream/skills/engineering/grill-with-docs/SKILL.md"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "path": "upstream/skills/engineering/improve-codebase-architecture/SKILL.md"
+    },
+    {
+      "name": "prototype",
+      "path": "upstream/skills/engineering/prototype/SKILL.md"
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "path": "upstream/skills/engineering/setup-matt-pocock-skills/SKILL.md"
+    },
+    {
+      "name": "tdd",
+      "path": "upstream/skills/engineering/tdd/SKILL.md"
+    },
+    {
+      "name": "to-issues",
+      "path": "upstream/skills/engineering/to-issues/SKILL.md"
+    },
+    {
+      "name": "to-prd",
+      "path": "upstream/skills/engineering/to-prd/SKILL.md"
+    },
+    {
+      "name": "triage",
+      "path": "upstream/skills/engineering/triage/SKILL.md"
+    },
+    {
+      "name": "zoom-out",
+      "path": "upstream/skills/engineering/zoom-out/SKILL.md"
+    },
+    {
+      "name": "review",
+      "path": "upstream/skills/in-progress/review/SKILL.md"
+    },
+    {
+      "name": "teach",
+      "path": "upstream/skills/in-progress/teach/SKILL.md"
+    },
+    {
+      "name": "writing-beats",
+      "path": "upstream/skills/in-progress/writing-beats/SKILL.md"
+    },
+    {
+      "name": "writing-fragments",
+      "path": "upstream/skills/in-progress/writing-fragments/SKILL.md"
+    },
+    {
+      "name": "writing-shape",
+      "path": "upstream/skills/in-progress/writing-shape/SKILL.md"
+    },
+    {
+      "name": "git-guardrails-claude-code",
+      "path": "upstream/skills/misc/git-guardrails-claude-code/SKILL.md"
+    },
+    {
+      "name": "migrate-to-shoehorn",
+      "path": "upstream/skills/misc/migrate-to-shoehorn/SKILL.md"
+    },
+    {
+      "name": "scaffold-exercises",
+      "path": "upstream/skills/misc/scaffold-exercises/SKILL.md"
+    },
+    {
+      "name": "setup-pre-commit",
+      "path": "upstream/skills/misc/setup-pre-commit/SKILL.md"
+    },
+    {
+      "name": "edit-article",
+      "path": "upstream/skills/personal/edit-article/SKILL.md"
+    },
+    {
+      "name": "obsidian-vault",
+      "path": "upstream/skills/personal/obsidian-vault/SKILL.md"
+    },
+    {
+      "name": "caveman",
+      "path": "upstream/skills/productivity/caveman/SKILL.md"
+    },
+    {
+      "name": "grill-me",
+      "path": "upstream/skills/productivity/grill-me/SKILL.md"
+    },
+    {
+      "name": "handoff",
+      "path": "upstream/skills/productivity/handoff/SKILL.md"
+    },
+    {
+      "name": "write-a-skill",
+      "path": "upstream/skills/productivity/write-a-skill/SKILL.md"
+    }
+  ],
+  "payload": {
+    "include": [
+      "AGENT.md",
+      "crew44-agent.json",
+      "upstream/skills/deprecated/design-an-interface/SKILL.md",
+      "upstream/skills/deprecated/qa/SKILL.md",
+      "upstream/skills/deprecated/request-refactor-plan/SKILL.md",
+      "upstream/skills/deprecated/ubiquitous-language/SKILL.md",
+      "upstream/skills/engineering/diagnose/SKILL.md",
+      "upstream/skills/engineering/grill-with-docs/SKILL.md",
+      "upstream/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "upstream/skills/engineering/prototype/SKILL.md",
+      "upstream/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "upstream/skills/engineering/tdd/SKILL.md",
+      "upstream/skills/engineering/to-issues/SKILL.md",
+      "upstream/skills/engineering/to-prd/SKILL.md",
+      "upstream/skills/engineering/triage/SKILL.md",
+      "upstream/skills/engineering/zoom-out/SKILL.md",
+      "upstream/skills/in-progress/review/SKILL.md",
+      "upstream/skills/in-progress/teach/SKILL.md",
+      "upstream/skills/in-progress/writing-beats/SKILL.md",
+      "upstream/skills/in-progress/writing-fragments/SKILL.md",
+      "upstream/skills/in-progress/writing-shape/SKILL.md",
+      "upstream/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "upstream/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "upstream/skills/misc/scaffold-exercises/SKILL.md",
+      "upstream/skills/misc/setup-pre-commit/SKILL.md",
+      "upstream/skills/personal/edit-article/SKILL.md",
+      "upstream/skills/personal/obsidian-vault/SKILL.md",
+      "upstream/skills/productivity/caveman/SKILL.md",
+      "upstream/skills/productivity/grill-me/SKILL.md",
+      "upstream/skills/productivity/handoff/SKILL.md",
+      "upstream/skills/productivity/write-a-skill/SKILL.md",
+      "upstream/**"
+    ],
+    "exclude": [
+      ".git/**",
+      "**/.git/**",
+      "**/node_modules/**",
+      "**/.DS_Store"
+    ]
+  }
+}
