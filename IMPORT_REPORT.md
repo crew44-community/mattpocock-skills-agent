@@ -3,7 +3,7 @@
 - Source: https://github.com/mattpocock/skills
 - Version: 1.0.0
 - Upstream commit: e3b90b5238f38cdea5996e16861dcae28ef52eda
-- Imported at: 2026-06-01T06:39:46Z
+- Imported at: 2026-06-01T06:57:02Z
 - Layout: upstream-wrapper
 
 ## Detected skills (29)
@@ -38,7 +38,7 @@
 - write-a-skill — `upstream/skills/productivity/write-a-skill/SKILL.md`
 
 ## Files included in the install payload (74)
-- AGENT.md
+- INSTRUCTIONS.md
 - crew44-agent.json
 - upstream/.claude-plugin/plugin.json
 - upstream/.out-of-scope/mainstream-issue-trackers-only.md
@@ -113,14 +113,15 @@
 - upstream/skills/productivity/handoff/SKILL.md
 - upstream/skills/productivity/write-a-skill/SKILL.md
 
-## Files filtered out by the importer (1)
+## Files filtered out by the importer (2)
 - IMPORT_REPORT.md
+- README.md
 
 ## Human review
 
 Before publishing:
 
-1. Read `AGENT.md` and rewrite the placeholder role paragraph so the
+1. Read `INSTRUCTIONS.md` and rewrite the placeholder role paragraph so the
    agent has a concrete job description.
 2. Confirm the detected `skills[]` actually point at real `SKILL.md`
    files (and remove any that are stale or empty).

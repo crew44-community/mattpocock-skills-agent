@@ -14,7 +14,7 @@
     "repo_url": "https://github.com/mattpocock/skills",
     "commit": "e3b90b5238f38cdea5996e16861dcae28ef52eda",
     "path": "upstream",
-    "imported_at": "2026-06-01T06:39:46Z"
+    "imported_at": "2026-06-01T06:57:02Z"
   },
   "skills": [
     {
@@ -136,7 +136,7 @@
   ],
   "payload": {
     "include": [
-      "AGENT.md",
+      "INSTRUCTIONS.md",
       "crew44-agent.json",
       "upstream/skills/deprecated/design-an-interface/SKILL.md",
       "upstream/skills/deprecated/qa/SKILL.md",
