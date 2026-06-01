@@ -3,7 +3,7 @@
 - Source: https://github.com/mattpocock/skills
 - Version: 1.0.0
 - Upstream commit: e3b90b5238f38cdea5996e16861dcae28ef52eda
-- Imported at: 2026-05-29T10:01:37Z
+- Imported at: 2026-06-01T06:39:46Z
 - Layout: upstream-wrapper
 
 ## Detected skills (29)
@@ -37,7 +37,9 @@
 - handoff — `upstream/skills/productivity/handoff/SKILL.md`
 - write-a-skill — `upstream/skills/productivity/write-a-skill/SKILL.md`
 
-## Files included in the install payload (72)
+## Files included in the install payload (74)
+- AGENT.md
+- crew44-agent.json
 - upstream/.claude-plugin/plugin.json
 - upstream/.out-of-scope/mainstream-issue-trackers-only.md
 - upstream/.out-of-scope/question-limits.md
@@ -111,7 +113,8 @@
 - upstream/skills/productivity/handoff/SKILL.md
 - upstream/skills/productivity/write-a-skill/SKILL.md
 
-## Files filtered out by the importer (0)
+## Files filtered out by the importer (1)
+- IMPORT_REPORT.md
 
 ## Human review
 
