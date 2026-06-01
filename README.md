@@ -2,7 +2,7 @@
 
 > A Crew44 agent packaged from https://github.com/mattpocock/skills
 
-A Crew44 agent packaged from Matt Pocock's collection of Claude skills.
+A real-engineering agent bundling Matt Pocock's everyday skills — alignment grilling, TDD, bug diagnosis, PRD and issue authoring, architecture cleanup, and a shared domain language — for shipping production software with coding agents instead of vibe coding.
 
 This repository is a [Crew44](https://github.com/getcrew44/crew44)-compatible
 agent. Crew44 is a local-first orchestrator for running specialist AI agents

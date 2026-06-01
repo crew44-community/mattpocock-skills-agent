@@ -2,10 +2,11 @@
   "schema_version": "crew44.agent.v1",
   "name": "Matt Pocock Skills",
   "version": "1.0.0",
-  "description": "A Crew44 agent packaged from Matt Pocock's collection of Claude skills.",
+  "description": "A real-engineering agent bundling Matt Pocock's everyday skills — alignment grilling, TDD, bug diagnosis, PRD and issue authoring, architecture cleanup, and a shared domain language — for shipping production software with coding agents instead of vibe coding.",
   "author": "mattpocock",
   "tags": [
-    "skills",
+    "engineering",
+    "tdd",
     "typescript"
   ],
   "suggested_runtime": "claude",
