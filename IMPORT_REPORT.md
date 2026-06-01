@@ -3,7 +3,7 @@
 - Source: https://github.com/mattpocock/skills
 - Version: 1.0.0
 - Upstream commit: e3b90b5238f38cdea5996e16861dcae28ef52eda
-- Imported at: 2026-06-01T06:57:02Z
+- Imported at: 2026-06-01T08:47:31Z
 - Layout: upstream-wrapper
 
 ## Detected skills (29)
@@ -121,8 +121,8 @@
 
 Before publishing:
 
-1. Read `INSTRUCTIONS.md` and rewrite the placeholder role paragraph so the
-   agent has a concrete job description.
+1. Read `INSTRUCTIONS.md` and confirm the generated package summary, role,
+   and source-material guidance fit this upstream repo.
 2. Confirm the detected `skills[]` actually point at real `SKILL.md`
    files (and remove any that are stale or empty).
 3. Trim `crew44-agent.json` payload globs to keep the installed payload
