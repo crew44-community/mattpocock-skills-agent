@@ -1,7 +1,7 @@
 {
   "schema_version": "crew44.agent.v1",
   "name": "Matt Pocock Skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A real-engineering agent bundling Matt Pocock's everyday skills — alignment grilling, TDD, bug diagnosis, PRD and issue authoring, architecture cleanup, and a shared domain language — for shipping production software with coding agents instead of vibe coding.",
   "author": "mattpocock",
   "tags": [
@@ -13,9 +13,9 @@
   "source_type": "upstream-wrapper",
   "upstream": {
     "repo_url": "https://github.com/mattpocock/skills",
-    "commit": "e3b90b5238f38cdea5996e16861dcae28ef52eda",
+    "commit": "aaf2453fbdfe7a15c07f11d861224f34ab4b53cb",
     "path": "upstream",
-    "imported_at": "2026-06-01T08:58:42Z"
+    "imported_at": "2026-06-04T13:54:36Z"
   },
   "skills": [
     {
